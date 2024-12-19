@@ -1,0 +1,123 @@
+
+* {
+    margin:auto;
+    padding:0;
+    list-style:none;
+    text-decoration:none;
+}
+.s{
+   padding-left: 5px;
+   padding-top:3px;
+   height:60px;
+   width:60px;
+}
+nav{
+   height:70px;
+   background:#063247;
+   box-shadow:rgba(0,0,0,0.24) 0px 3px 8px;
+}
+nav .a
+{
+   color:orange;
+   font-size:33px;
+   font-weight:bold;
+   padding:0 15px;
+   line-height:60px;
+   font-family:"Brush Script MT", cursive;
+}
+.a:hover{
+     font-size:70px;
+}
+
+
+h1{
+   border-radius: 10px;
+}
+body{
+  background-image:url('hai3.jpg');
+  background-repeat:no-repeat;
+  height:100vh;
+  width:100vw;
+  position:relative;
+  background-position:center;
+  background-size:cover;
+}
+
+nav ol{
+   float:right;
+   margin-right:30px;
+}
+
+nav ol li{
+   display:inline-block;
+}
+
+nav ol li a{
+   color:white;
+   display:block;
+   padding:0 15px;
+   line-height:60px;
+   font-size:20px;
+   background:#073247;
+}
+
+.b:hover{
+   color:orange;
+}
+nav ol li:hover a{
+   color:orange;
+}
+.c{
+   font-family: "Heebo", sans-serif;
+   text-align:left; 
+   padding:100px;
+   color:black;
+   font-size:50px;
+}
+
+.d{
+   font-family:"Brush Script MT", cursive;
+}
+.d:hover{
+    color:Red;
+    position:absolute;
+}
+
+
+.menu{
+   background:#073247;
+   border:none;
+
+}
+
+.links{
+   display:none;
+}
+
+.menu:hover .links{
+   display:block;
+}
+
+.main{
+   position:absolute;
+   display:inline;
+}
+.links a{
+   color:white;
+   padding:16px;
+   display:block;
+   text-decoration:none;
+
+}
+
+.menu:hover{
+   background-color:yellow;
+}
+
+.links a:hover{
+   background-color:yellow;
+   color:black;
+   text-decoration:none;
+
+}
+       
